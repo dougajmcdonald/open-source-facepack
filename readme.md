@@ -27,9 +27,9 @@ Hopefully for anyone who knows how to use `git` this is an easier solution.
 
 ## Getting the faces
 
-Clone the repository into your Football Manager 2019 `graphics` folder, for windows users it will be something like:
+Clone the repository into your Football Manager 2019 folder, for windows users it will be something like:
 
-`C:\Users\<Your Username>\Documents\Sports Interactive\Football Manager 2019\graphics`
+`C:\Users\<Your Username>\Documents\Sports Interactive\Football Manager 2019\`
 
 If you're unfamiliar with `git`, open the command prompt/terminal, change to the folder above and run:
 
