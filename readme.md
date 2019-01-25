@@ -37,10 +37,39 @@ If you're unfamiliar with `git`, open the command prompt/terminal, change to the
 
 This will download all the face images.
 
-# Contrubuting
+## Updating the faces
 
-If you want to add a face, make a pull request for the image you want to add / update, the filename must match the `player id` you wish to update.
+This is the beauty of git, once you have cloned the repository to update it, open a terminal/cmd prompt in your graphics folder and type `git pull origin master` this will add in any new faces and updates the community has added but won't download the whole lot again.
+
+# Contributing new faces
+
+If you want to add a face, make a pull request for the image you want to add / update.
+
+You're pull request should:
+
+1. Include an image file in `.png` format
+1. Add or change a file with the correct `playerid`
 
 ## How to find the player id
 
-//TODO I don't know how to do this!
+To find a player id you can turn it on in Football Manager.
+
+1. Open the game, go to `preferences`
+1. Check the `Show screen IDs in the titlebar to assist skinning` option and click `Confirm`
+
+   ![preferences menu](/guide-images/idoption.png)
+1. Go back to your game and select a player, you should see the id now listed in the game
+   ![Jovane Cabral](/guide-images/playerwithid.png)
+1. Make a note of the id
+
+## How to add an image
+
+Once you have the ID of the player / staff member you want to update you need to find an image, google is your friend.
+
+Image requirements:
+
+- Images MUST be in `.png` format
+- Image file names must be in the format `<id>.png` e.g. if your id is 83111471 (Jovane Cabral) your image should be added as `83111471.png`
+- Images should be 260px wide and 310 high
+
+Add the new image into your `graphics` folder as above, commit the change with a commit message `e.g. Added a new image for Jovane Cabral` and make a `Pull Request`
