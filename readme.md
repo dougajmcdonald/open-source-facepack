@@ -57,9 +57,10 @@ To find a player id you can turn it on in Football Manager.
 1. Open the game, go to `preferences`
 1. Check the `Show screen IDs in the titlebar to assist skinning` option and click `Confirm`
 
-   ![preferences menu](/guide-images/idoption.png)
+   ![preferences menu](/guide-images/idoption.PNG)
+
 1. Go back to your game and select a player, you should see the id now listed in the game
-   ![Jovane Cabral](/guide-images/playerwithid.png)
+   ![Jovane Cabral](/guide-images/playerwithid.PNG)
 1. Make a note of the id
 
 ## How to add an image
