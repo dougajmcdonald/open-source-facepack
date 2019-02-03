@@ -1,0 +1,23 @@
+{
+  "name": "open-source-facepack",
+  "version": "1.0.0",
+  "description": "This is a the open-source-facepack for Football Manager 2019.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougajmcdonald/open-source-facepack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougajmcdonald/open-source-facepack/issues"
+  },
+  "homepage": "https://github.com/dougajmcdonald/open-source-facepack#readme",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
